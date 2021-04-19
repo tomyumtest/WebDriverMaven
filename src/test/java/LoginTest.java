@@ -27,7 +27,6 @@ public class LoginTest {
         driver.get("http://gmail.com");
         driver.findElement(By.id("identifierId")).sendKeys("lol@qw.qw");
         driver.findElement(By.cssSelector("#identifierNext > div > button")).sendKeys("haslo");
-       // driver.findElement(By.id("GignIn")).click();
     }
 
     @AfterSuite
